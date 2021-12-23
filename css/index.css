@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    
 }   
 .navbar{
 display: flex;
@@ -17,7 +17,7 @@ background-color: white;
 .cont{
     display: flex;
      /* min-width:500px; */
-     min-height: 85vh;
+     min-height: 84vh;
     background-image: url(../img/bg.jpg);
     background-position: center; 
     background-repeat: no-repeat;
@@ -86,7 +86,8 @@ background-color: white;
     cursor: pointer;
 }
 .btn1{
-    position: fixed;
+    position: absolute;
+    /* means its position is fixed for that perticular container */
     right: 10px;
     top: 15px;
     font-size: 16px;
